@@ -5,7 +5,7 @@ import Axios from "axios";
 
 function useInput(defaultValue) {
   const [value, setValue] = useState(defaultValue);
-
+console.log(value);
   const onChange = e => {
     const {
       target: { value }
